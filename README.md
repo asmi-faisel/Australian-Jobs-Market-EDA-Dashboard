@@ -1,2 +1,21 @@
-# Australian-Jobs-Market-EDA-Dashboard
-Scrape real Australian job postings from Seek.com.au (or use a dataset), perform deep EDA, and build an interactive Plotly Dash dashboard. Shows salary distributions, in-demand skills, top hiring companies, and location heatmaps. This is directly relevant to the Australian job market — employers will love the local context.
+# Australian Jobs Market EDA Dashboard
+
+##  Overview
+This project explores trends in the Australian job market using real-world job postings.  
+It includes data cleaning, exploratory data analysis (EDA), and an interactive dashboard.
+
+##  Features
+- Salary distribution by state  
+- In-demand skills analysis  
+- Top hiring companies  
+- Interactive Plotly Dash dashboard  
+
+##  Tech Stack
+- Python (Pandas, NumPy)
+- Plotly & Dash
+- Data Cleaning & EDA
+
+##  Run Locally
+```bash
+pip install -r requirements.txt
+python app.py
