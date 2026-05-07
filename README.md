@@ -1,21 +1,23 @@
-# Australian Jobs Market EDA Dashboard
+# Australian Housing Market EDA Dashboard
 
-##  Overview
-This project explores trends in the Australian job market using real-world job postings.  
-It includes data cleaning, exploratory data analysis (EDA), and an interactive dashboard.
+## Overview
+This project explores trends in the Australian housing market using real-world property data.  
+It includes data cleaning, exploratory data analysis (EDA), and interactive visualisations to uncover insights about housing prices, locations, and market patterns across Australia.
 
-##  Features
-- Salary distribution by state  
-- In-demand skills analysis  
-- Top hiring companies  
-- Interactive Plotly Dash dashboard  
+## Features
+- Housing price distribution analysis  
+- Property trends by suburb and state  
+- Bedroom, bathroom, and property type analysis  
+- Interactive data visualisations and dashboards  
+- Data cleaning and preprocessing pipeline  
 
-##  Tech Stack
+## Tech Stack
 - Python (Pandas, NumPy)
-- Plotly & Dash
+- Matplotlib & Seaborn
+- Plotly
 - Data Cleaning & EDA
 
-##  Run Locally
+## Run Locally
 ```bash
 pip install -r requirements.txt
-python app.py
+jupyter notebook
